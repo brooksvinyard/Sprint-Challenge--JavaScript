@@ -1,4 +1,5 @@
 // ==== Callbacks ====  
+console.log("================ Callbacks ================");
 
 /* Step 1: Create a higher-order function that accepts a callback
   * Create a higher-order function named consume that can take 3 parameters.
@@ -36,6 +37,7 @@ console.log(consume("Mary","Poppins", greeting)); // Hello Mary Poppins, nice to
 
 
 // ==== Closures ==== 
+console.log("================ Closures ================");
 
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 

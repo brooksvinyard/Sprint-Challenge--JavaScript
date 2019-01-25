@@ -30,13 +30,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    `.forEach()` will execute a function **for each** element in an array.
+    `.map()` will convert something into a **new** array
+
 2. What is the difference between a function and a method?
+
+    A method is a function that is attached to an object. It can be called with a dot. A function is more general, and not attached to a specific object.
 
 3. What is closure?
 
+    A closure is a "package" that is delivered to a sub-function, and because of this, a nested-function can read variables from the outer function.
+
 4. Describe the four rules of the 'this' keyword.
 
+    1. global scope, refers to the window binding
+    2. implicit binding, deals with objects and you refer to the object left of the dot
+    3. new binding, when you invoke an object with new, you create a new object that inherits the this
+    4. explicit binding allows you to call when functions are separate from their objects
+
+
 5. Why do we need super() in an extended class?
+
+    When a sub-class extends a class, one can use **super()** to inherit all of the parent class attributes and methods. 
 
 ## Project Set up
 
